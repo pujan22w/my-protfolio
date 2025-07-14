@@ -1,0 +1,14 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make html, body, and root full viewport */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
